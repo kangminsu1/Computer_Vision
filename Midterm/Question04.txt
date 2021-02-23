@@ -1,0 +1,3 @@
+Question 4 정답
+먼저 저는 SIFT Descriptor을 사용하여 coins를 추출하는 과정에서 DoG 계산 -> keypoint 추출 -> 방향 할당 -> key point discriptor -> 매칭을 사용하려 했지만,
+추출하는 과정에서 정확히 추출되어지지 않아, HOUGH Circle 방식을 사용하였다. 하지만 이 또한 blur 처리하여 circle을 검출하는 과정에서 정확히 인지되어지지 않은 단점이 있었다.
